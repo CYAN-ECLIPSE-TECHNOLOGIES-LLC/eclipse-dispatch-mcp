@@ -39,6 +39,3 @@ eclipse-dispatch = "server:main"
 "fixtures/analytics_ghost.json" = "fixtures/analytics_ghost.json"
 "fixtures/analytics_substack.json" = "fixtures/analytics_substack.json"
 "fixtures/substack_feed.xml" = "fixtures/substack_feed.xml"
-
-[tool.hatch.build.targets.sdist]
-packages = ["."]

@@ -1,5 +1,7 @@
 # eclipse-dispatch
 
+mcp-name: io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/dispatch
+
 **What this is:** `eclipse-dispatch` is the MCP server edition of
 **Eclipse Dispatch** — Cyan Eclipse Technologies' newsletter layer
 above the platforms: it drafts once and syndicates the drafts to every
