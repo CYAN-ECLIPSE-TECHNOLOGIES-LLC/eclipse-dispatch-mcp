@@ -4,5 +4,37 @@
  "title": "Eclipse Dispatch MCP",
  "description": "Drafts once, syndicates drafts everywhere sanctioned, unifies the analytics. Never publishes",
  "version": "0.1.0",
- "websiteUrl": "https://eclipsebazaar.com"
+ "websiteUrl": "https://eclipsebazaar.com",
+ "repository": {
+  "source": "github",
+  "url": "https://github.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-dispatch-mcp"
+ },
+ "icons": [
+  {
+   "src": "https://raw.githubusercontent.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-dispatch-mcp/main/icon-512.png",
+   "mimeType": "image/png",
+   "sizes": [
+    "512x512"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "registryType": "pypi",
+   "identifier": "eclipse-dispatch",
+   "version": "0.1.0",
+   "runtimeHint": "uvx",
+   "transport": {
+    "type": "stdio"
+   }
+  },
+  {
+   "registryType": "oci",
+   "identifier": "ghcr.io/cyan-eclipse-technologies-llc/eclipse-dispatch-mcp:0.1.0",
+   "runtimeHint": "docker",
+   "transport": {
+    "type": "stdio"
+   }
+  }
+ ]
 }

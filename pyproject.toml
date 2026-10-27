@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eclipse-dispatch"
+version = "0.1.0"
+description = "Eclipse Dispatch MCP — the newsletter layer above the platforms: drafts once, syndicates drafts everywhere sanctioned, unifies the analytics. Never publishes without approval, and never scrapes."
+readme = "PYPI_README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Cyan Eclipse Technologies LLC" },
+]
+keywords = ["mcp", "model-context-protocol", "newsletter", "syndication", "analytics", "publishing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://cetech.ai"
+Repository = "https://github.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-dispatch-mcp"
+Vendor = "https://cetech.ai"
+
+[project.scripts]
+eclipse-dispatch = "server:main"
+
+# Flat layout: server + adapters modules and the runtime fixtures the
+# adapters answer from, shipped at the wheel root (the adapters resolve
+# fixtures beside adapters.py).
+[tool.hatch.build.targets.wheel.force-include]
+"server.py" = "server.py"
+"adapters.py" = "adapters.py"
+"fixtures/analytics_beehiiv.json" = "fixtures/analytics_beehiiv.json"
+"fixtures/analytics_ghost.json" = "fixtures/analytics_ghost.json"
+"fixtures/analytics_substack.json" = "fixtures/analytics_substack.json"
+"fixtures/substack_feed.xml" = "fixtures/substack_feed.xml"
+
+[tool.hatch.build.targets.sdist]
+packages = ["."]
