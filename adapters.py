@@ -1,3 +1,7 @@
+# Eclipse Dispatch MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Eclipse Dispatch — platform adapters (v0.1, D0 + D1-core).
+
 """Eclipse Dispatch — platform adapters (v0.1, D0 + D1-core).
 
 Powered by Cyan Eclipse Technologies (cetech.ai).
@@ -306,3 +310,5 @@ def make_ghost_stub():
     srv, url = _stub_server(H)
     srv.requests = H.requests
     return srv, url
+
+# Eclipse Dispatch MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

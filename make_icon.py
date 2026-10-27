@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Dispatch MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Generate icon-512.png — brand system §6: eclipse motif on the navy
+
 """Generate icon-512.png — brand system §6: eclipse motif on the navy
 field (#0d1b2a), one per-product glyph. Dispatch's glyph is the sent
 signal: a crescent eclipse ring with broadcast arcs radiating outward
@@ -45,3 +49,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Dispatch MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

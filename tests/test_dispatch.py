@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Dispatch MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Eclipse Dispatch v0.1 (D0 + D1-core) — unit tests.
+
 """Eclipse Dispatch v0.1 (D0 + D1-core) — unit tests.
 Run: python3 -m unittest discover tests"""
 import copy
@@ -212,3 +216,5 @@ class TestReceipts(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+# Eclipse Dispatch MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

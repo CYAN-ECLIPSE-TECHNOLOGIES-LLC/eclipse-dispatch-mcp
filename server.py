@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Eclipse Dispatch MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+
 """Eclipse Dispatch MCP — v0.1.0, phases D0 + D1-core.
 
 Powered by Cyan Eclipse Technologies (cetech.ai).
@@ -425,3 +428,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Dispatch MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

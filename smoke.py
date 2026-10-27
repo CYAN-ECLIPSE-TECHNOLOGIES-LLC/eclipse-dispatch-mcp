@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Dispatch MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Eclipse Dispatch v0.1 — end-to-end stdio smoke: real subprocess,
+
 """Eclipse Dispatch v0.1 — end-to-end stdio smoke: real subprocess,
 temp state, fixture adapters. Draft -> preview -> approve -> syndicate
 -> analytics -> receipts. Nothing leaves this machine."""
@@ -67,3 +71,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Dispatch MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai
