@@ -3,7 +3,7 @@
  "name": "io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/dispatch",
  "title": "Eclipse Dispatch MCP",
  "description": "Drafts once, syndicates drafts everywhere sanctioned, unifies the analytics. Never publishes",
- "version": "0.1.0",
+ "version": "0.1.1",
  "websiteUrl": "https://eclipsebazaar.com",
  "repository": {
   "source": "github",
@@ -24,14 +24,6 @@
    "identifier": "eclipse-dispatch",
    "version": "0.1.0",
    "runtimeHint": "uvx",
-   "transport": {
-    "type": "stdio"
-   }
-  },
-  {
-   "registryType": "oci",
-   "identifier": "ghcr.io/cyan-eclipse-technologies-llc/eclipse-dispatch-mcp:0.1.0",
-   "runtimeHint": "docker",
    "transport": {
     "type": "stdio"
    }
